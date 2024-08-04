@@ -1,0 +1,240 @@
+.ingredients-section-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ingredients {
+    margin: 0 auto;
+    padding: 80px 20px;
+}
+
+.ingredients-section-title {
+    font-size: 24px;
+    letter-spacing: -0.03em;
+    font-weight: 550;
+    text-transform: uppercase;
+    max-width: 335px;
+    text-align: center;
+}
+
+.span-taste {
+    color: #FD9222;
+}
+
+.ingredients-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ingredients-png {
+    max-width: 236px;
+    max-height: 176px;
+    margin: 0 auto;
+}
+
+.ingredients-item-orange {
+    display: flex;
+    flex-direction: column;
+    max-width: 336px;
+    max-height: 270px;
+    border: none;
+    border-radius: 15px;
+    background-color: #FD9222;
+    padding: 28px;
+    position: relative;
+    overflow: hidden;
+}
+
+.ingredients-item-black {
+    display: flex;
+    flex-direction: column;
+    max-width: 336px;
+    max-height: 270px;
+    border: none;
+    border-radius: 15px;
+    background-color: #1E1823;
+    padding: 28px;
+    position: relative;
+    overflow: hidden;
+}
+
+.ingredients-item-white {
+    display: flex;
+    flex-direction: column;
+    max-width: 336px;
+    max-height: 270px;
+    border: 1px solid #FD9222;
+    border-radius: 15px;
+    background-color: transparent;
+    padding: 28px;
+    position: relative;
+    overflow: clip;
+}
+
+.ingredients-hidden {
+    display: none;
+}
+
+.ingredients-title {
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-top: 16px;
+}
+
+.ingredients-content {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    max-width: 336px;
+    height: 270px;
+    border: 0.7px solid #FD9222;
+    border-radius: 15px;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(100%); 
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ingredients-item-orange:hover .ingredients-content {
+    transform: translateY(0%); 
+}
+
+.ingredients-item-orange:active .ingredients-content {
+    transform: translateY(0%); 
+}
+
+.ingredients-item-white:hover .ingredients-content {
+    transform: translateY(0%); 
+}
+
+.ingredients-item-white:active .ingredients-content {
+    transform: translateY(0%); 
+}
+
+.ingredients-item-black:hover .ingredients-content {
+    transform: translateY(0%); 
+}
+
+.ingredients-item-black:active .ingredients-content {
+    transform: translateY(0%); 
+}
+
+.ingredients-content-title {
+    font-weight: 600;
+    font-size: 14px;
+    color: #111111;
+    text-transform: uppercase;
+    margin-top: 16px;
+}
+
+.tags-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+.ingredients-tag-orange {
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    background-color: #FD9222;
+    width: 81px;
+    height: 24px;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: lowercase;
+}
+
+.ingredients-tag-white {
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    background-color: transparent;
+    width: 81px;
+    height: 24px;
+    border: 1px solid #FD9222;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: lowercase;
+}
+
+.ingredients-content-text {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.ingredients-title-black {
+    font-weight: 600;
+    font-size: 14px;
+    color: #111111;
+    text-transform: uppercase;
+    margin-top: 16px;
+}
+
+
+/*<----------768px--------->*/
+
+@media screen and (min-width: 768px) {
+    .ingredients-hidden {
+        display: flex;
+    }
+
+    .ingredients-section-title {
+        max-width: 486px;
+    }
+
+    .ingredients-list {
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-height: 1282px;
+        gap: 32px;
+    }
+
+    .ingredients-tag-orange {
+        width: 114px;
+    }
+}
+  
+
+/*<----------1200px--------->*/
+  
+@media screen and (min-width: 1200px) {
+    .ingredients-list {
+        max-height: 564px;
+        gap: 32px;
+    }
+
+    .ingredients-item-orange {
+        max-width: 260px;
+    }
+    
+    .ingredients-item-black {
+        max-width: 260px;
+    }
+    
+    .ingredients-item-white {
+        max-width: 260px;
+    }
+
+    .ingredients-content {
+        max-width: 260px;
+    }
+
+    .ingredients-content-text {
+        font-size: 11px;
+    }
+}

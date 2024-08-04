@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    padding-bottom: 80px;
 }
 
 .hero-container {
@@ -101,10 +102,6 @@
         }
     }
 
-    .hero {
-        padding-bottom: 40px;
-    }
-
     .tablet-desktop-hero-wrapper {
         display: flex;
         flex-direction: row;
@@ -112,10 +109,10 @@
         align-items: center;
     }
 
-    .head-one {
-        margin-top: 375px;
+    .hero {
+        padding-bottom: 40px;
     }
-    
+
     .hero-wrapper {
         padding: 40px;
     }
@@ -138,7 +135,4 @@
         }
     }
 
-    .hero {
-        padding-bottom: 80px;
-    }
 }
