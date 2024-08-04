@@ -16,7 +16,6 @@
 
 :root {
   color: #111111;
-  background-color: #FFFFFF;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -31,7 +30,7 @@ body {
   font-weight: 600;
   letter-spacing: -0.02em;
   color: #111111;
-
+  background-color: #FAFAFA;
   margin: 0 auto;
 }
 
