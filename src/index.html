@@ -1,24 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <meta charset="UTF-8">
+    <meta name="description" content="Simply Chocolate">
+    <meta name="author" content="Tetiana Bachariewa">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simply Chocolate</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
     <load ="partials/header.html" />
+    <main>
+      <load ="partials/hero.html" />
+      <load ="partials/benefits.html" />
+      <load ="partials/ingredients.html" />
+      <load ="partials/process.html" />
+      <load ="partials/products.html" />
+      <load ="partials/bestsellers.html" />
+      <load ="partials/reviews.html" />
+    </main>
+    <load ="partials/footer.html" />
 
-    <section>
-      <h1>Example page title</h1>
-      <!-- Path to images as from index.html file -->
-      <img src="./img/javascript.svg" alt="" />
-    </section>
+    <script src="https://unpkg.com/body-scroll-lock/lib/bodyScrollLock.min.js"></script>
+    <script type="module" src="./js/main.js"></script>
+    <script type="module" src="./js/header.js"></script>
+    <script type="module" src="./js/ingredients.js"></script>
+    <script type="module" src="./js/products.js"></script>
+    <script type="module" src="./js/bestsellers.js"></script>
+    <script type="module" src="./js/reviews.js"></script>
+    <script type="module" src="./js/footer.js"></script>
 
-    <!-- Loads the specified .html file -->
-    <load ="partials/vite-promo.html" />
-
-    <script type="module" src="./main.js"></script>
   </body>
 </html>
