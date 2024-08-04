@@ -1,0 +1,141 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding-bottom: 80px;
+}
+
+.hero-container {
+    overflow: hidden;
+    border-radius: 20px;
+    width: 100%;
+    height: 620px;
+}
+
+.hero-wrapper {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+    url(../img/hero/hero-bckgrnd.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 65% center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.head-one {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    margin-top: 380px;
+}
+
+.hero-btn-wrapper {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+}
+
+.buy-now-btn {
+    font-weight: 600;
+    letter-spacing: normal;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 50px;
+    background-color: #FD9222;
+    padding: 12px 28px;
+}
+
+.how-made-btn {
+    font-weight: 600;
+    letter-spacing: normal;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+    background-color: transparent;
+    padding: 12px 28px;
+}
+
+.scroll-down-wrapper {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+}
+
+.scroll-down-text {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.scroll-down-btn {
+    width: 28px;
+    height: 28px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.scroll-down-icon {
+    fill: #FD9222;
+    width: 10px;
+}
+
+
+@media screen and (min-width: 768px) {
+    @media (-webkit-min-device-pixel-ratio: 2),
+       (min-resolution: 192dpi) {
+        .hero-wrapper {
+            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+            url('../img/hero/hero-bckgrnd-2x.webp');
+        }
+    }
+
+    .hero {
+        padding-bottom: 40px;
+    }
+
+    .tablet-desktop-hero-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .head-one {
+        margin-top: 375px;
+    }
+    
+    .hero-wrapper {
+        padding: 40px;
+    }
+
+    .head-one {
+        font-size: 28px;
+        width: 484px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    @media (-webkit-min-device-pixel-ratio: 3),
+       (min-resolution: 288dpi) {
+        .hero-wrapper {
+            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+            url('../img/hero/hero-bckgrnd-3x.webp');
+        }
+    }
+
+    .hero {
+        padding-bottom: 80px;
+    }
+}
