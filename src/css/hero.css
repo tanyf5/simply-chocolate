@@ -3,7 +3,6 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    padding-bottom: 80px;
 }
 
 .hero-container {
@@ -91,6 +90,8 @@
 }
 
 
+/*<----------768px--------->*/
+
 @media screen and (min-width: 768px) {
     @media (-webkit-min-device-pixel-ratio: 2),
        (min-resolution: 192dpi) {
@@ -125,6 +126,8 @@
     }
 }
 
+
+/*<----------1200px--------->*/
 
 @media screen and (min-width: 1200px) {
     @media (-webkit-min-device-pixel-ratio: 3),
