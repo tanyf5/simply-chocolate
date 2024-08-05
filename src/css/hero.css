@@ -24,13 +24,7 @@
     padding: 20px;
 }
 
-@media (-webkit-min-device-pixel-ratio: 2),
-       (min-resolution: 192dpi) {
-        .hero-wrapper {
-            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
-            url('../img/hero/hero-bckgrnd-2x.webp');
-        }
-    }
+
 
 @media (-webkit-min-device-pixel-ratio: 3),
        (min-resolution: 288dpi) {

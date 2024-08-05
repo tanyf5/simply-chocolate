@@ -1,12 +1,19 @@
 <section class="process container" id="process">
     <div class="process-wrapper">
-        <h2 class="process-title">How it's made?</h2>
+        <h2 class="process-title">How it's <span class="span-made">made</span>?</h2>
         <div class="film-wrapper">
             <div class="film-images-wrapper-wrapper">
                 <div class="film-images-wrapper">
-                    <svg class="play-icon">
-                        <use href="./img/icons.svg#icon-play"></use>
-                    </svg>
+                    <div class="svg-wrapper">
+                        <svg class="play-icon">
+                            <use href="./img/icons.svg#icon-play"></use>
+                        </svg>
+                    </div>
+                    <picture class="process-paused">
+                        <source srcset="./img/process/film-3x.webp" media="(min-resolution: 288dpi)">
+                        <source srcset="./img/process/film-2x.webp" media="(min-resolution: 192dpi)">
+                        <img src="./img/process/film.webp" alt="Chocolate making process" class="process-paused">
+                    </picture>
                 </div>
             </div>
             <div class="process-description">
