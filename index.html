@@ -12,7 +12,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
     
     <script type="module" crossorigin src="/simply-chocolate/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/simply-chocolate/assets/index-8d3dd575.css">
+    <link rel="stylesheet" href="/simply-chocolate/assets/index-7abda35b.css">
   </head>
   <body>
     <header id="header" class="header container">
@@ -303,13 +303,20 @@
 </section>
       <section class="process container" id="process">
     <div class="process-wrapper">
-        <h2 class="process-title">How it's made?</h2>
+        <h2 class="process-title">How it's <span class="span-made">made</span>?</h2>
         <div class="film-wrapper">
             <div class="film-images-wrapper-wrapper">
                 <div class="film-images-wrapper">
-                    <svg class="play-icon">
-                        <use href="/simply-chocolate/assets/icons-3aed9409.svg#icon-play"></use>
-                    </svg>
+                    <div class="svg-wrapper">
+                        <svg class="play-icon">
+                            <use href="/simply-chocolate/assets/icons-3aed9409.svg#icon-play"></use>
+                        </svg>
+                    </div>
+                    <picture class="process-paused">
+                        <source srcset="/simply-chocolate/assets/film-3x-18dfefea.webp " media="(min-resolution: 288dpi)">
+                        <source srcset="/simply-chocolate/assets/film-2x-ba28dfa0.webp " media="(min-resolution: 192dpi)">
+                        <img src="/simply-chocolate/assets/film-d8c11f74.webp" alt="Chocolate making process" class="process-paused">
+                    </picture>
                 </div>
             </div>
             <div class="process-description">
