@@ -24,6 +24,22 @@
     padding: 20px;
 }
 
+@media (-webkit-min-device-pixel-ratio: 2),
+       (min-resolution: 192dpi) {
+        .hero-wrapper {
+            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+            url('../img/hero/hero-bckgrnd-2x.webp');
+        }
+    }
+
+@media (-webkit-min-device-pixel-ratio: 3),
+       (min-resolution: 288dpi) {
+        .hero-wrapper {
+            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+            url('../img/hero/hero-bckgrnd-3x.webp');
+        }
+    }
+
 .head-one {
     font-size: 20px;
     font-weight: 500;
@@ -94,13 +110,6 @@
 /*<----------768px--------->*/
 
 @media screen and (min-width: 768px) {
-    @media (-webkit-min-device-pixel-ratio: 2),
-       (min-resolution: 192dpi) {
-        .hero-wrapper {
-            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
-            url('../img/hero/hero-bckgrnd-2x.webp');
-        }
-    }
 
     .tablet-desktop-hero-wrapper {
         display: flex;
@@ -127,12 +136,56 @@
 /*<----------1200px--------->*/
 
 @media screen and (min-width: 1200px) {
-    @media (-webkit-min-device-pixel-ratio: 3),
-       (min-resolution: 288dpi) {
-        .hero-wrapper {
-            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
-            url('../img/hero/hero-bckgrnd-3x.webp');
-        }
+
+    .buy-now-btn {
+        transition: color, background-color 0.1s cubic-bezier(0.42, 0, 1, 1);
     }
 
+    .buy-now-btn:hover,
+    .buy-now-btn:active,
+    .buy-now-btn:focus {
+        color: #FD9222;
+        background-color: #FCF1E0;
+    }
+
+    .how-made-btn {
+        transition: border, color 0.1s cubic-bezier(0.42, 0, 1, 1);
+    }
+
+    .how-made-btn:hover,
+    .how-made-btn:focus,
+    .how-made-btn:active {
+        border: 1px solid #FD9222;
+        color: #FD9222;
+    }
+
+    .scroll-down-text {
+        transition: color 0.1s cubic-bezier(0.42, 0, 1, 1);
+    }
+
+    .scroll-down-btn {
+        transition: background-color 0.1s cubic-bezier(0.42, 0, 1, 1);
+    }
+
+    .scroll-down-icon {
+        transition: fill 0.1s cubic-bezier(0.42, 0, 1, 1);
+    }
+
+    .scroll-down-wrapper:hover .scroll-down-text,
+    .scroll-down-wrapper:focus .scroll-down-text,
+    .scroll-down-wrapper:active .scroll-down-text {
+        color: #FD9222;
+    }
+
+    .scroll-down-wrapper:hover .scroll-down-btn,
+    .scroll-down-wrapper:focus .scroll-down-btn,
+    .scroll-down-wrapper:active .scroll-down-btn {
+        background-color: #FD9222;
+    }
+
+    .scroll-down-wrapper:hover .scroll-down-icon,
+    .scroll-down-wrapper:focus .scroll-down-icon,
+    .scroll-down-wrapper:active .scroll-down-icon {
+        fill: #FFFFFF;
+    }
 }

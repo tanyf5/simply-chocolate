@@ -147,8 +147,7 @@
     font-weight: 400;
     letter-spacing: 0em;
     background-color: #FD9222;
-    width: 81px;
-    height: 24px;
+    padding: 6px 16px;
     border: none;
     border-radius: 50px;
     display: flex;
@@ -162,8 +161,7 @@
     font-weight: 400;
     letter-spacing: 0em;
     background-color: transparent;
-    width: 81px;
-    height: 24px;
+    padding: 6px 16px;
     border: 1px solid #FD9222;
     border-radius: 50px;
     display: flex;
@@ -202,10 +200,6 @@
         flex-wrap: wrap;
         max-height: 1282px;
         gap: 32px;
-    }
-
-    .ingredients-tag-orange {
-        width: 114px;
     }
 }
   
