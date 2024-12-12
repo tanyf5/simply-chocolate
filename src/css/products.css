@@ -1,0 +1,25 @@
+.products-section-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+}
+
+.products {
+    margin: 0 auto;
+    padding: 80px 20px;
+}
+
+.products-section-title {
+    font-size: 24px;
+    letter-spacing: -0.03em;
+    font-weight: 550;
+    text-transform: uppercase;
+    max-width: 335px;
+    text-align: center;
+}
+
+.span-products {
+    color: #FD9222;
+}
