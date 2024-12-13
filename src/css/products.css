@@ -73,6 +73,17 @@
     text-transform: uppercase;
     padding: 8px 20px;
     margin-top: 18px;
+    transition: background-color 0.1s cubic-bezier(0.42, 0, 1, 1),
+    color 0.1s cubic-bezier(0.42, 0, 1, 1),
+    border 0.1s cubic-bezier(0.42, 0, 1, 1);
+}
+
+.products-content-btn:hover,
+.products-content-btn:active,
+.products-content-btn:focus {
+    background-color: #FD9222;
+    border: 0.5px solid #FD9222;
+    color: #FFFFFF;
 }
 
 
