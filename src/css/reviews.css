@@ -80,9 +80,9 @@
     border: 1px solid #FD9222;
     padding: 12px 28px;
     border-radius: 100px;
-    transform: background-color 0.1s cubic-bezier(0.42, 0, 1, 1),
+    transition: background-color 0.1s cubic-bezier(0.42, 0, 1, 1),
     color 0.1s cubic-bezier(0.42, 0, 1, 1),
-    border 0.1s cubic-bezier(0.42, 0, 1, 1);;
+    border 0.1s cubic-bezier(0.42, 0, 1, 1);
 }
 
 .leave-rvw-btn:hover,
