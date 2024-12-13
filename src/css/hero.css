@@ -114,6 +114,7 @@
 @media screen and (min-width: 768px) {
 
     .tablet-desktop-hero-wrapper {
+        width: 680px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -142,6 +143,9 @@
 /*<----------1200px--------->*/
 
 @media screen and (min-width: 1200px) {
+    .tablet-desktop-hero-wrapper {
+        width: 1110px;
+    }
 
     .hero-content-wrapper {
         max-width: 1056px;
